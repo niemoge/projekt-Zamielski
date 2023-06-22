@@ -1,4 +1,4 @@
-package org.example;
+package no;
 
 public class Pracownik {
     private String imie;

@@ -1,6 +1,12 @@
-package org.example;
+package no;
+
 
 public class Produkt {
+    /**
+     * @param nazwa Nazwa produktu
+     * @param  cena produktu w zł
+     * @param dostepnaIlosc Ilosc dostepnych produktow.
+     */
     private String nazwa;
     private double cena;
     private int dostepnaIlosc;
@@ -28,6 +34,7 @@ public class Produkt {
     public void setDostepnaIlosc(int dostepnaIlosc) {
         this.dostepnaIlosc = dostepnaIlosc;
     }
+
 
     public void wyswietlInformacje() {
         System.out.println("Produkt: " + nazwa);

@@ -1,7 +1,8 @@
-package org.example;
+package no;
 
-import com.mojeaplikacje.sprzedaz.Produkt;
-import com.mojeaplikacje.zarzadzanie.Pracownik;
+
+import no.Produkt;
+import no.Pracownik;
 
 public class Zamowienie {
     public int getNumer() {
